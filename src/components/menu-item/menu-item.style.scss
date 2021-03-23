@@ -9,6 +9,14 @@
     border: 1px solid black;
     margin: 0 7.5px 15px;
 
+    // for the images (background) 
+    background-position: center;
+    background-size: cover;
+
+    &.large {
+        height: 380px;
+    }
+    
     &:first-child {
         margin-right: 7.5px;
     }
