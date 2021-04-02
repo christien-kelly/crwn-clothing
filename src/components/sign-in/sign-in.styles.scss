@@ -1,4 +1,10 @@
 .sign-in {
     width: 30vw;
+    display: flex;
+    flex-direction: column;
     padding:2%;
+
+    .title {
+        margin: 10px 0;
+    }
 }
